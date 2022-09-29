@@ -7,7 +7,7 @@ int main ()
 {
 //Judul
     cout << "====================================" << endl;
-    cout << "Program Laundry Kiloan" << endl;
+    cout << "Program Kalkulator Laundry Kiloan" << endl;
     cout << "====================================" << endl;
     cout << "Tarif laundry per Kg : Rp5000 " << endl;
     cout << "Estimasi waktu 1-3 hari " << endl;
