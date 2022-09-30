@@ -14,7 +14,7 @@ int main ()
     
 //Data pemesan dan pesanan
     char nama [5], no_hp [15];
-    int berat_laundry {0};
+    float berat_laundry {0};
     
     cout << "\nData Pemesan" << endl;
     cout << "------------------------------------" << endl;
@@ -24,7 +24,7 @@ int main ()
     
 //Detail pesanan
     const int tarif_per_kilo {5000};
-    int tarif {berat_laundry*tarif_per_kilo};
+    double tarif {berat_laundry*tarif_per_kilo};
     
     cout << "\nDetail Pesanan" << endl;
     cout << "------------------------------------" << endl;
@@ -50,7 +50,7 @@ int main ()
     cout << "------------------------------------" << endl;
     cout << "Bayar : Rp"; cin >> uang_bayar;
     
-    int uang_kembalian {uang_bayar-tarif};
+    double uang_kembalian {uang_bayar-tarif};
     cout << "Kembalian : Rp" << uang_kembalian;
 
 //Terimakasih
